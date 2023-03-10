@@ -13,4 +13,4 @@ This will create a random workout/exercise whether that's cardio or lifting weig
 **The generator should push out examples such us:** 
 - Push ups: 3 sets, 10 reps 
 - Pull ups: 3 sets, 8 reps  
-- Run: 5km 8:00 pace # Portfolio-Project---Mixed-Messages
+- Run: 5km 8:00 pace

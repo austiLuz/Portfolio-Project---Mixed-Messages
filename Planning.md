@@ -11,6 +11,6 @@ Codeacademy told me to
 
 # Questions 
 - How long will this take? Aim is to have this complete within 6 hours
-- Any external sources for help? Yes, I expect to use stackoverflow, w3 schools and *potentially* ChatGPT for assistance if I get stuck   
+- Any external sources for help? Yes, I expect to use stackoverflow, w3 schools and *potentially* ChatGPT for assistance if I get stuck
 
 # Notes
