@@ -14,7 +14,7 @@ const repsG = () => {
 };
 
 const distG = () => {
-    let distance = Math.floor(Math.random () * 15) + 3;
+    return Math.floor(Math.random () * 15) + 3;
 };
 
 //Random exercise picker 
@@ -25,13 +25,32 @@ const randomEx = (arr) => {
 
 //Delivering the result
 const exer = () => {
-    const pick = Math.floor(Math.random) * 2;
-    if(pick === 0){
-        console.log(`Do ${randomEx(weights)}: for ${setsG}, ${repsG} each time`);
+    const pick = Math.floor(Math.random() * 2);
+    if(pick <= 0){
+        console.log(`Do ${randomEx(weights)} for ${setsG()} sets, ${repsG()} each time`);
     } else {
-        console.log(`${randomEx(cardio)} for ${distG}km`);
+        console.log(`${randomEx(cardio)} for ${distG()}km`);
     };
+};
+
+// Get the output element
+const output = document.getElementById('output');
+
+// Function to display the generated exercise
+const displayExercise = () => {
+  const pick = Math.floor(Math.random() * 2);
+  let exercise;
+  if(pick <= 0){
+    exercise = `Do ${randomEx(weights)} for ${setsG()} sets, ${repsG()} each time`;
+  } else {
+    exercise = `${randomEx(cardio)} for ${distG()}km`;
+  };
+  
+  // Update the output element with the exercise
+  output.textContent = exercise;
 };
 
 //Clicking the button
 button.addEventListener('click', exer);
+// Click event listener for the button
+button.addEventListener('click', displayExercise);
