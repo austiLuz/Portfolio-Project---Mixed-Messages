@@ -1,5 +1,4 @@
-# Planning of my project 
-=====
+https://austiluz.github.io/Portfolio-Project-Mixed-Messages/
 
 # What is it? 
 -----
